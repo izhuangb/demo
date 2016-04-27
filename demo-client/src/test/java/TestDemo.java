@@ -12,8 +12,11 @@ public class TestDemo {
         context.start();
 
         DemoClientService demoService = (DemoClientService)context.getBean("demoClientService"); // 获取远程服务代理
-        String str = demoService.sayHello("world"); // 执行远程方法
-        System.out.println(str);
+        for(int i=1; i<20;i++){
+            String str = demoService.sayHello("world"); // 执行远程方法
+            System.out.println(str);
+        }
+
     }
 
 }

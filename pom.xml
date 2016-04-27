@@ -12,6 +12,7 @@
         <module>demo-base</module>
         <module>demo-comm</module>
         <module>demo-client</module>
+        <module>demo-back</module>
     </modules>
 
 
