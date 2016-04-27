@@ -11,9 +11,9 @@ public class TestDemo {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[] {"classpath*:applicationContent-beans.xml"});
         context.start();
 
-        DemoClientService demoService = (DemoClientService)context.getBean("demoClientService"); // 获取远程服务代理
+        DemoClientService demoService = (DemoClientService)context.getBean("demoClientService"); // 鑾峰彇杩滅▼鏈嶅姟浠ｇ悊
         for(int i=1; i<20;i++){
-            String str = demoService.sayHello("world"); // 执行远程方法
+            String str = demoService.sayHello("world"); // 鎵ц杩滅▼鏂规硶
             System.out.println(str);
         }
 
