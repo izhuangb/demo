@@ -7,5 +7,5 @@
          http://code.alibabatech.com/schema/dubbo
           http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-       <dubbo:service ref="demoClientService" interface="com.comm.service.DemoClientService" />
+       <!--<dubbo:service ref="demoClientService" interface="com.comm.service.DemoClientService" />-->
 </beans>
